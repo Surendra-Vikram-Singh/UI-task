@@ -1,0 +1,71 @@
+.header{
+    border-bottom: 1px solid #ddd;
+}
+
+
+.listIcon{
+    color: black;
+    height: 35px !important;
+    width: 35px !important;
+    padding: 3px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+// .p-12{
+//     line-height: 14.52px;
+// }
+
+// .p-14{
+//     line-height: 19.6px;
+// }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-btn{
+    background-color: white !important;
+    border: none;
+    border-radius: 10px;
+
+}
+
+progress {
+    width: 80%;
+    height: 10px;
+    color:  #3FAE43 !important;
+    appearance: none; /* Removes default styling */
+  }
+
+  #progress{
+    width: 100%;
+  }
+  /* Webkit (Chrome, Edge, Safari) */
+  progress::-webkit-progress-bar {
+    background-color: #e0e0e0; /* Background of the progress bar */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  
+.metaColor{
+    color: var(--Low-Grey, #84919A);
+
+}
+
+.bg-gray{
+    background: #F9F9F9;
+}
+
+
+// for chart
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  

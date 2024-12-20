@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: poppins !important;
+}
+
+.p-14{
+    font-size: 12px;
+}
+
+.p-16{
+    font-size: 14px;
+}
+
+.p-18{
+    font-size: 18px;
+}
+
+.font-400{
+    font-weight: 400;
+}
+
+.font-500{
+    font-weight: 500;
+}
+
+.font-600{
+    font-weight: 600;
+}
+
+.font-700{
+    font-weight: 700;
+}
+
+.font-800{
+    font-weight: 800;
+}
+
+.h12{
+    font: 12px;
+}
+
+.h22{
+    font-size: 22px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  }
+  
